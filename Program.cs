@@ -46,6 +46,19 @@ namespace MethodOverloads_KatelynNicholson
             RollDice(100, 5, color: ConsoleColor.Yellow);
             Console.ReadKey();
 
+            //Show the console is back to normal color
+            RollDice(20, 3, color: ConsoleColor.Red);
+            Console.ReadKey();
+            RollDice();
+            Console.ReadKey();
+            RollDice(20);
+            Console.ReadKey();
+            RollDice(100, 5, color: ConsoleColor.Yellow);
+            Console.ReadKey();
+            RollDice(100, 5);
+            Console.ReadKey();
+
+
         }
 
         static void RollDice()
